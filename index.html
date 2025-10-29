@@ -70,9 +70,7 @@
 
   <title>TheraMind: A Strategic and Adaptive Agent for Longitudinal Psychological Counseling | Academic Research</title>
   
-  <!-- Favicon and App Icons -->
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
-  <link rel="apple-touch-icon" href="static/images/favicon.ico">
+  <!-- Favicon removed -->
   
   <!-- Critical CSS - Load synchronously -->
   <link rel="stylesheet" href="static/css/bulma.min.css">
@@ -221,7 +219,7 @@
     "@type": "Organization",
     "name": "Shenzhen University",
     "url": "./",
-    "logo": "./static/images/favicon.ico",
+
     "sameAs": [
       "https://www.szu.edu.cn/",
       "https://ccse.szu.edu.cn/"
@@ -374,7 +372,7 @@
       <!-- Abstract Column -->
       <div class="column is-half">
         <h2 class="title is-3 has-text-centered">Abstract</h2>
-        <div class="content has-text-justified" style="font-size: 0.92rem; line-height: 1.6;">
+        <div class="content has-text-justified" style="font-size: 0.95rem; line-height: 1.6;">
           <!-- TODO: Replace with your paper abstract -->
           <p>
             Large language models (LLMs) in psychological counseling have attracted increasing attention. However, existing approaches often lack emotional understanding, adaptive strategies, and the use of therapeutic methods across multiple sessions with long- term memory, leaving them far from real clinical practice. To address these critical gaps, we introduce TheraMind, a strategic and adaptive agent for longitudinal psychological counseling. The cornerstone of TheraMind is a novel dual-loop architecture that decouples the complex counseling process into an Intra-Session Loop for tactical dialogue management and a Cross-Session Loop for strategic therapeutic planning. The Intra-Session Loop perceives the patient’s emotional state to dynamically select response strategies while leveraging cross-session memory to ensure continuity. Crucially, the Cross-Session Loop empowers the agent with longterm adaptability by evaluating the efficacy of the applied therapy after each session and adjusting the method for subsequent interactions. We validate our approach in a high-fidelity simulation environment grounded in real clinical cases. Extensive evaluations show that TheraMind outperforms other methods, especially on multi-session metrics like Coherence, Flexibility, and Therapeutic Attunement, validating the effectiveness of its dual-loop design in emulating strategic, adaptive, and longitudinal therapeutic behavior. The code is publicly available at https://0mwwm0.github.io/TheraMind/.
@@ -384,8 +382,11 @@
       <!-- First Image Column -->
       <div class="column is-half">
         <div class="content">
-          <h2 class="title is-3 has-text-centered">llustration</h2>
+          <h2 class="title is-3 has-text-centered">图片1展示</h2>
           <img src="static/images/1.jpg" alt="图片1" class="blend-img-background center-image" style="max-width: 100%; height: auto;" loading="lazy" />
+          <p>
+            这是第一张图片的详细描述，可以在这里添加相关的研究内容和发现。
+          </p>
         </div>
       </div>
     </div>
@@ -417,22 +418,6 @@
     <div class="columns is-centered"> 
       <div class="column is-full"> 
         <div class="content"> 
-          <h2 class="title is-3 has-text-centered">Case Study</h2> 
-          <img src="static/images/7.jpg" alt="图片7" class="blend-img-background center-image" style="max-width: 85%; height: auto;" loading="lazy" /> 
-          <p> 
-            A case study of TheraMind’s deliberative process. The agent synthesizes the patient’s current state (emotion, attitude), the therapeutic stage, and a retrieved memory from a previous session (the “rib” metaphor) to generate a historically-informed, clinically-purposeful response.
-          </p> 
-        </div> 
-      </div> 
-    </div> 
-  </div> 
-</section>
-    
-<section class="section hero is-small is-light"> 
-  <div class="container is-max-desktop"> 
-    <div class="columns is-centered"> 
-      <div class="column is-full"> 
-        <div class="content"> 
           <h2 class="title is-3 has-text-centered">Evaluation</h2> 
           <img src="static/images/3.jpg" alt="图片3" class="blend-img-background center-image" style="max-width: 85%; height: auto;" loading="lazy" /> 
           <p> 
@@ -449,26 +434,26 @@
     <div class="columns is-centered"> 
       <div class="column is-full"> 
         <div class="content"> 
-          <h2 class="title is-3 has-text-centered">Performance comparison</h2> 
-          <img src="static/images/5.jpg" alt="图片5" class="blend-img-background center-image" style="max-width: 85%; height: auto;" loading="lazy" /> 
+          <h2 class="title is-3 has-text-centered">Human Evaluation</h2> 
+          <img src="static/images/4.jpg" alt="图片4" class="blend-img-background center-image" style="max-width: 85%; height: auto;" loading="lazy" /> 
           <p> 
-            Performance comparison across ten distinct categories of psychological issues, evaluated in both single-session (left) and multi-session (right) contexts. 
+            (Left) Human agreement analysis of TheraMind’s internal decision-making modules. (Middle) Pairwise human preference evaluation. TheraMind was compared against three top-performing models on a simplified multi-session evaluation standard. (Right) Distribution of patient emotions recognized by TheraMind during counseling sessions.
           </p> 
         </div> 
       </div> 
     </div> 
   </div> 
 </section>
-    
+
 <section class="section hero is-small is-light"> 
   <div class="container is-max-desktop"> 
     <div class="columns is-centered"> 
       <div class="column is-full"> 
         <div class="content"> 
-          <h2 class="title is-3 has-text-centered">Human Evaluation</h2> 
-          <img src="static/images/4.jpg" alt="图片4" class="blend-img-background center-image" style="max-width: 85%; height: auto;" loading="lazy" /> 
+          <h2 class="title is-3 has-text-centered">Performance comparison</h2> 
+          <img src="static/images/5.jpg" alt="图片5" class="blend-img-background center-image" style="max-width: 85%; height: auto;" loading="lazy" /> 
           <p> 
-            (Left) Human agreement analysis of TheraMind’s internal decision-making modules. (Middle) Pairwise human preference evaluation. TheraMind was compared against three top-performing models on a simplified multi-session evaluation standard. (Right) Distribution of patient emotions recognized by TheraMind during counseling sessions.
+            Performance comparison across ten distinct categories of psychological issues, evaluated in both single-session (left) and multi-session (right) contexts. 
           </p> 
         </div> 
       </div> 
@@ -492,6 +477,21 @@
   </div> 
 </section>
 
+<section class="section hero is-small is-light"> 
+  <div class="container is-max-desktop"> 
+    <div class="columns is-centered"> 
+      <div class="column is-full"> 
+        <div class="content"> 
+          <h2 class="title is-3 has-text-centered">Case Study</h2> 
+          <img src="static/images/7.jpg" alt="图片7" class="blend-img-background center-image" style="max-width: 85%; height: auto;" loading="lazy" /> 
+          <p> 
+            A case study of TheraMind’s deliberative process. The agent synthesizes the patient’s current state (emotion, attitude), the therapeutic stage, and a retrieved memory from a previous session (the “rib” metaphor) to generate a historically-informed, clinically-purposeful response.
+          </p> 
+        </div> 
+      </div> 
+    </div> 
+  </div> 
+</section>
 <!-- End Research Results -->
 
 <!--BibTex citation -->
