@@ -732,6 +732,25 @@ a:focus {
 }
 
 
+/* Image Centering Styles */
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.blend-img-background {
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-lg);
+  transition: var(--transition);
+}
+
+.blend-img-background:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-xl);
+}
+
 /* Print styles */
 @media print {
   .more-works-container {
@@ -748,6 +767,3 @@ a:focus {
     box-shadow: none !important;
   }
 }
-
-
-
