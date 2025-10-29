@@ -126,7 +126,6 @@ body {
   max-height: 70vh;
   border-radius: var(--border-radius-lg);
   overflow: hidden;
-  box-shadow: var(--shadow-xl);
   margin: 2rem 0;
 }
 
@@ -207,13 +206,7 @@ body {
 
 .publication-banner img {
   border-radius: var(--border-radius-lg);
-  box-shadow: var(--shadow-lg);
   transition: var(--transition);
-}
-
-.publication-banner img:hover {
-  transform: scale(1.02);
-  box-shadow: var(--shadow-xl);
 }
 
 /* Modern Video and Carousel Styling */
@@ -244,13 +237,7 @@ body {
 
 .publication-body img {
   border-radius: var(--border-radius);
-  box-shadow: var(--shadow-md);
   transition: var(--transition);
-}
-
-.publication-body img:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-lg);
 }
 
 .results-carousel {
@@ -271,8 +258,6 @@ body {
 }
 
 .results-carousel .item:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-lg);
 }
 
 .results-carousel .item img,
@@ -742,13 +727,7 @@ a:focus {
 
 .blend-img-background {
   border-radius: var(--border-radius);
-  box-shadow: var(--shadow-lg);
   transition: var(--transition);
-}
-
-.blend-img-background:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-xl);
 }
 
 /* Print styles */
@@ -767,3 +746,6 @@ a:focus {
     box-shadow: none !important;
   }
 }
+
+
+
